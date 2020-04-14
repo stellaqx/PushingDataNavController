@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "DisplayScreenViewController.h"
 
 @interface ViewController ()
+
+@property (weak, nonatomic) IBOutlet UITextField *inputTextField;
 
 @end
 
@@ -17,6 +20,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    NSString *userInputText = _inputTextField.text;
+    if ([segue.identifier isEqualToString:@"goToDisplay"]) {
+        DisplayScreenViewController *destViewController = (DisplayScreenViewController *)segue.destinationViewController;
+        destViewController.text = userInputText;
+    }
 }
 
 

@@ -14,6 +14,7 @@
 		9748860D24454ED2001ED400 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9748860C24454ED2001ED400 /* Assets.xcassets */; };
 		9748861024454ED2001ED400 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9748860E24454ED2001ED400 /* LaunchScreen.storyboard */; };
 		9748861324454ED2001ED400 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9748861224454ED2001ED400 /* main.m */; };
+		9748861B24454FE6001ED400 /* DisplayScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9748861A24454FE6001ED400 /* DisplayScreenViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		9748860F24454ED2001ED400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9748861124454ED2001ED400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9748861224454ED2001ED400 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9748861924454FE6001ED400 /* DisplayScreenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DisplayScreenViewController.h; sourceTree = "<group>"; };
+		9748861A24454FE6001ED400 /* DisplayScreenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DisplayScreenViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 		974885FF24454ED1001ED400 /* PushingDataNavController */ = {
 			isa = PBXGroup;
 			children = (
+				9748861924454FE6001ED400 /* DisplayScreenViewController.h */,
+				9748861A24454FE6001ED400 /* DisplayScreenViewController.m */,
 				9748860024454ED1001ED400 /* AppDelegate.h */,
 				9748860124454ED1001ED400 /* AppDelegate.m */,
 				9748860324454ED1001ED400 /* SceneDelegate.h */,
@@ -148,6 +153,7 @@
 			files = (
 				9748860824454ED1001ED400 /* ViewController.m in Sources */,
 				9748860224454ED1001ED400 /* AppDelegate.m in Sources */,
+				9748861B24454FE6001ED400 /* DisplayScreenViewController.m in Sources */,
 				9748861324454ED2001ED400 /* main.m in Sources */,
 				9748860524454ED1001ED400 /* SceneDelegate.m in Sources */,
 			);
